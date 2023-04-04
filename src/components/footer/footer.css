@@ -1,0 +1,32 @@
+#footer .col-md-6 {
+    padding: 10px 0;
+}
+
+#footer p {
+    color: #7c92a2;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    margin: 0;
+}
+
+#footer a {
+    color: #7c92a2;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: end;
+}
+
+@media only screen and (max-width: 760px) {
+    #footer .row {
+        flex-direction: column-reverse;
+        padding: 30px 0;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+  }

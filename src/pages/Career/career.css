@@ -1,0 +1,43 @@
+#career-page {
+    margin-top: 102px;
+}
+
+#career-page .section-img-box {
+    background-color: #22BCB0;
+}
+
+#career-page .section-title h2 {
+    color: #6B8449;
+}
+
+#career-page .section-title hr {
+    border-top: 6px solid #6B8449;
+}
+
+#career-page .section-title p {
+    color: #6B8449;
+}
+
+#career-page .section-title p a {
+    text-decoration: none;
+}
+
+#career-page .section-title a:hover {
+    color: #6B8449;
+}
+
+.job-row {
+    background-color: #F5F7F1;
+    padding: 40px 0;
+}
+
+.job-row h5 {
+    text-align: center;
+    font-family: 'Montserrat';
+}
+
+.job-container {
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}

@@ -1,0 +1,15 @@
+#gallery-page {
+    margin-top: 102px;
+}
+
+#gallery-page .section-img-box {
+    background-color: #22BCAF;
+}
+
+#gallery-page .section-title h2 {
+    color: #6B8449;
+}
+
+#gallery-page .section-title hr {
+    border-top: 6px solid #6B8449;
+}

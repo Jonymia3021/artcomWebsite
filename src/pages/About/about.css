@@ -1,0 +1,117 @@
+#about-page {
+    margin-top: 102px;
+}
+
+#about-page .section-img-box {
+    background-color: #C64B9C;
+}
+
+#about-page .section-title h2 {
+    color: #446278;
+}
+
+#about-page .section-title hr {
+    border-top: 6px solid #446278;
+}
+
+#about-page .section-title p {
+    color: #446278;
+}
+
+.about-philosophy {
+    background-color: #F5F8F9;
+    padding: 5%;
+}
+
+.about-philosophy iframe {
+    height: 500px;
+}
+
+.our-values {
+    padding-bottom: 30px;
+}
+
+.value-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.value-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 49%;
+    margin: 11px 0;
+}
+
+.value-box div {
+    border: 1px solid lightgray;
+    height: 150px;
+}
+
+.value-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.value-icon i {
+    color: #4B7BF5;
+    font-size: 50px;
+}
+
+.value-text {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-left: -1px;
+}
+
+.value-text h4 {
+    color: #446278;
+    font-size: 20px;
+    font-family: 'Montserrat';
+}
+
+.value-text p {
+    color: #446278;
+    font-size: 14px;
+    font-family: 'Montserrat';
+}
+
+.our-services {
+    background-color: #F5F8F9;
+    padding: 0 10%;
+}
+
+@media only screen and (max-width: 760px) {
+    .value-container {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .value-box {
+        width: 80%;
+    }
+
+    .wings-container {
+        width: 83%;
+    }
+  }
+
+@media only screen and (max-width: 480px) {
+    .value-box {
+        width: 100%;
+    }
+
+    .wings-container {
+        width: 83%;
+    }
+  }

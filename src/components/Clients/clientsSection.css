@@ -1,0 +1,30 @@
+.clients-container {
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-img-bx {
+    width: 15%;
+    height: 150px;
+    margin: 20px;
+}
+
+@media only screen and (max-width: 760px) {
+    .clients-container {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+  }
+
+@media only screen and (max-width: 480px) {
+    .client-img-bx {
+        margin: 0;
+        width: auto;
+    }
+}

@@ -1,0 +1,62 @@
+#contact-page {
+    margin-top: 102px;
+}
+
+#contact-page .row {
+    margin-bottom: 50px;
+}
+
+#contact-page .section-img-box {
+    background-color: #6B844A;
+}
+
+#contact-page .section-title h2 {
+    color: #9BB6C9;
+}
+
+#contact-page .section-title hr {
+    border: 6px solid #9BB6C9;
+}
+
+#contact-page .section-title p {
+    color: #9BB6C9;
+}
+
+.contact-map {
+    padding: 0;
+}
+
+#contact-page .row iframe {
+    width: 100%;
+    height: 100%;
+}
+
+#contact-page .contact-address {
+    background-color: #6B844A;
+}
+
+#contact-page .contact-address {
+    padding: 20px;
+    color: white;
+    font-family: 'Montserrat';
+}
+
+#contact-page .contact-address h2 {
+    font-size: 32px;
+    margin-bottom: 35px;
+}
+
+#contact-page .contact-address p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#contact-page .contact-address p strong {
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+#contact-page .contact-address div {
+    margin-top: 35px;
+}

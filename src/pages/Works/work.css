@@ -1,0 +1,79 @@
+#work-page {
+    margin-top: 102px;
+}
+
+#work-page .section-img-box {
+    background-color: #F0483F;
+}
+
+#work-page .section-title h2 {
+    color: #9BB6C9;
+}
+
+#work-page .section-title hr {
+    border-top: 6px solid #9BB6C9;
+}
+
+#work-page .section-title p {
+    color: #9BB6C9;
+}
+
+.work-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.work-box {
+    width: 370px;
+    position: relative;
+    background-color: white;
+    height: 200px;
+    border: none;
+    padding: 0;
+}
+
+.work-box img {
+    width: 100%;
+    opacity: 1;
+    height: 100%;
+}
+
+.work-box h4 {
+    position: absolute;
+    color: white;
+    font-family: 'Montserrat';
+    top: 50%;
+    left: 20%;
+    font-weight: 600;
+    opacity: 0;
+}
+
+.work-box:hover {
+    background-color: gray;
+    transition: 500ms ease-out;
+}
+
+.work-box:hover img {
+    opacity: 0;
+    transition: 500ms ease-in-out;
+}
+
+.work-box:hover h4 {
+    opacity: 1;
+    transition: 1s ease-in;
+}
+
+@media only screen and (max-width: 760px) {
+    .work-container {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .work-box {
+        width: 100%;
+        margin-top: 20px;
+    }
+  }

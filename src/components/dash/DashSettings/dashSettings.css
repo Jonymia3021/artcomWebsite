@@ -1,0 +1,87 @@
+.dash-settings-container .settings-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.dash-settings-container .settings-card .card-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.settings-card .card-info-1 {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.settings-card iframe {
+    border: 3px solid lightgray;
+}
+
+.Dash-settings-phone-number {
+    border: 1px solid lightgray;
+    margin: 10px;
+    padding: 10px;
+}
+
+.dash-settings-container .settings-card .card-form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.dash-settings-container .settings-card .card-form .input-group .mb-3 {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.dash-settings-container .settings-card .card-form input {
+    width: 60%;
+}
+
+.settings-card .card-info p {
+    margin: 0;
+}
+
+.Dash-settings-phone-number-btn button {
+    margin: 10px 10px;
+}
+
+.dash-social-media {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.dash-social-media div {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.dash-social-media div p {
+    border: 1px solid lightgray;
+    padding: 10px 25px;
+    background-color: rgba(220, 20, 60, 0.592);
+}

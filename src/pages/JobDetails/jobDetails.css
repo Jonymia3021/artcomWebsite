@@ -1,0 +1,26 @@
+#job-details {
+    margin-top: 102px;
+}
+
+#job-details .section-img-box {
+    background-color: #F0483F;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#job-details .section-img-box h1 {
+    margin: 0;
+    color: white;
+    font-family: 'Montserrat';
+}
+
+
+#job-details .row p {
+    color: #333333;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    margin-top: 30px;
+}

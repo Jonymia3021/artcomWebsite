@@ -1,0 +1,65 @@
+#login {
+    margin-top: 102px;
+    background-color: #f2f2f2;
+}
+
+#login .container {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login form {
+    width: 40%;
+}
+
+#login form p {
+    font-size: 18px;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+#login form label {
+    font-size: 16px;
+    font-family: 'Montserrat';
+    margin-left: 10px;
+}
+
+#login form input[type='email'],
+#login form input[type='password'] {
+    width: 100%;
+    color: #333333;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px 15px;
+    outline-color: darkgray;
+    background-color: #f4f4f4;
+}
+
+#login form input[type='submit'] {
+    width: 200px;
+    border: 1px solid #6B8449;
+    padding: 5px 0;
+    color: #6B8449;
+    background-color: #f4f4f4;
+}
+
+#login form input[type='submit']:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #6B8449;
+}
+
+@media only screen and (max-width: 760px) {
+    #login form {
+        width: 70%;
+    }
+  }
+
+@media only screen and (max-width: 480px) {
+    #login form {
+        width: 80%;
+    }
+  }

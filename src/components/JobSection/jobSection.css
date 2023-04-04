@@ -1,0 +1,79 @@
+.job-box-container {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.job-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid lightgray;
+    font-family: 'Montserrat';
+}
+
+.job-box-icon {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid lightgray;
+}
+
+.job-box-icon i {
+    color: #6B8449;
+    font-size: 46px;
+}
+
+.job-box-text {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+}
+
+.job-box-text h6 {
+    color: #6B8449;
+}
+
+.job-box-text p {
+    margin: 0;
+}
+
+.job-box-text button {
+    color: #6B8449;
+    padding: 5px 20px;
+    border: 1px solid #6B8449;
+}
+
+.job-box-text button:hover {
+    color: white;
+    background-color: #6B8449;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 760px) {
+    .job-box-container {
+        width: 100%;
+    }
+  }
+
+@media only screen and (max-width: 480px) {
+    .job-box-text {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .job-box-text button {
+        margin-top: 20px;
+    }
+  }

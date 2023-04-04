@@ -1,0 +1,31 @@
+.dash-img-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.dash-img-box {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: 10px;
+}
+
+.dash-img-box img {
+    width: 200px;
+    height: 200px;
+}
+
+.dash-img-box-button {
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+}
+
+
+.dash-gallery-addNew form {
+    width: 60%;
+    margin: 10px auto;
+}

@@ -1,0 +1,57 @@
+.section-img-box {
+    height: 150px;
+}
+
+.section-title {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.section-title h2 {
+    font-size: 28px;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+}
+
+.section-title hr {
+    width: 50px;
+}
+
+.section-title p {
+    font-size: 22px;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+.dash-btn-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dash-btn-group a {
+    color: white;
+    background-color: #0D6EFD;
+    width: 48%;
+    border: 1px solid #0D6EFD;
+    padding: 5px 0;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.dash-btn-group:hover a {
+    cursor: pointer;
+}
+
+.dash-btn-group .disable {
+    background-color: #0d6dfd68;
+    border-color: #0d6dfd68;
+}

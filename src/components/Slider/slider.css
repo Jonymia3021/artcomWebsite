@@ -1,0 +1,12 @@
+.slider-container {
+    margin: 30px auto;
+}
+
+.slider-img-box {
+    width: 400px;
+}
+
+.slider-img-box img {
+    width: 100%;
+    height: auto;
+}

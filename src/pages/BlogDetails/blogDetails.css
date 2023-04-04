@@ -1,0 +1,63 @@
+#blog-details {
+    margin-top: 102px;
+}
+
+.social-btn-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.social-btn-fb,
+.social-btn-ln,
+.social-btn-yt {
+    padding: 30px;
+    border: 2px solid white;
+}
+
+.social-btn-fb i,
+.social-btn-ln i,
+.social-btn-yt i {
+    color: white;
+}
+
+.social-btn-fb {
+    background-color: #3b5898d9;
+}
+
+.social-btn-ln {
+    background-color: #0e77a8d6;
+}
+
+.social-btn-yt {
+    background-color: #ff0000d4;
+}
+
+.blog-text-box {
+    margin: 50px 0;
+}
+
+.blog-text-box h2 {
+    color: rgba(0, 0, 0, 0.822);
+    font-family: 'Montserrat';
+}
+
+.blog-text-box p {
+    color: rgba(0, 0, 0, 0.73);
+    font-size: 16px;
+    font-family: 'Montserrat';
+    text-align: justify;
+}
+
+@media only screen and (max-width: 760px) {
+    .social-btn-container {
+        display: none;
+    }
+
+    .blog-text-box {
+        margin: 20px 0;
+    }
+  }

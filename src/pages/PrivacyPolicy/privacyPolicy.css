@@ -1,0 +1,15 @@
+#privacy-page {
+    margin-top: 102px;
+}
+
+#privacy-page .section-img-box {
+    background-color: #C64B9C;
+}
+
+#privacy-page .section-title h2 {
+    color: #446278;
+}
+
+#privacy-page .section-title hr {
+    border-top: 6px solid #446278;
+}

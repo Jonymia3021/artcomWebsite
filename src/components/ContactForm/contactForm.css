@@ -1,0 +1,60 @@
+.contact-form form {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.contact-form label {
+    color: #7C92A2;
+    font-family: 'Montserrat';
+    margin-left: 10px;
+}
+
+.contact-form form input[type='text'],
+.contact-form form input[type='email'],
+.contact-form form select {
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid lightgray;
+    outline-width: 1px;
+    outline-color: #7C92A2;
+}
+
+.contact-form form input[type='text']::placeholder,
+.contact-form form input[type='email']::placeholder {
+    color: #7C92A2;
+}
+
+.contact-form select {
+    color: #7C92A2;
+}
+
+.contact-form .textarea1,
+.contact-form .textarea2 {
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid lightgray;
+    outline-width: 1px;
+    outline-color: #7C92A2;
+}
+
+.contact-form .textarea2 {
+    height: 150px;
+}
+
+.contact-form input[type='submit'] {
+    width: 200px;
+    color: #6B844A;
+    padding: 7px 0;
+    border: 1px solid #6B844A;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.contact-form input[type='submit']:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #6B844A;
+}

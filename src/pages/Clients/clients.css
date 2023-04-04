@@ -1,0 +1,19 @@
+#clients-page {
+    margin-top: 102px;
+}
+
+#clients-page .section-img-box {
+    background-color: #C64B9C;
+}
+
+#clients-page .section-title h2 {
+    color: #9BB6C9;
+}
+
+#clients-page .section-title hr {
+    border-top: 6px solid #9BB6C9;
+}
+
+#clients-page .section-title p {
+    color: #9BB6C9;
+}

@@ -1,0 +1,20 @@
+.team-page .section-title {
+    color: #9BB6C9;
+}
+
+.team-page .section-title hr {
+    border-top: 6px solid #9BB6C9;
+}
+
+.team-page .section-title p {
+    color: #7C92A2;
+}
+
+.team-page {
+    margin-top: 102px;
+}
+
+.team-page .section-img-box {
+    background-color: #22BCB0;
+}
+

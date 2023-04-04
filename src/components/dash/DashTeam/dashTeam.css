@@ -1,0 +1,46 @@
+.dash-team-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.dash-team-list .card {
+    width: 250px;
+    margin: 10px;
+}
+
+.dash-team-list .card-body div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dash-team-list button {
+    width: 45%;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+.modal-body div {
+    margin-top: 20px;
+}
+
+.dash-team-addNew form {
+    width: 60%;
+    margin: 5px auto;
+}
+
+
+.team-edit {
+    width: 60%;
+    margin: 5px auto;
+}
+
+.team-edit-img img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
