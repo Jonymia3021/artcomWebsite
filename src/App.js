@@ -42,11 +42,14 @@ import DashCareerAdd from './components/dash/DashCareer/DashCareerAdd';
 import DashCareerEdit from './components/dash/DashCareer/DashCareerEdit';
 import DashBlogAdd from './components/dash/DashBlog/DashBlogAdd';
 import DashBlogEdit from './components/dash/DashBlog/DashBlogEdit';
+import SideIcons from './components/SideIcons/SideIcons';
+import GoToTop from './components/GoToTop/GoToTop';
 
 function App() {
   return (
     <BrowserRouter>
       <Header />
+      <SideIcons />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
@@ -63,7 +66,7 @@ function App() {
         <Route path='/our-work/:id' element={<WorkDetails />} />
         <Route path='/blog/:id' element={<BlogDetails />} />
         <Route path='/privacy&policy' element={<PrivacyPolicy />} />
-        <Route path='/admin/' element={<MainDash />}>
+        <Route path='/admin' element={<MainDash />}>
           <Route path='contact' element={<DashContact />} />
           <Route path='team' element={<DashTeam />} />
             <Route path='team/new' element={<DashTeamAddNew />} />
@@ -90,6 +93,7 @@ function App() {
         <Route path='/login' element={<Login />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
+      <GoToTop />
       <Footer />
     </BrowserRouter>
   );

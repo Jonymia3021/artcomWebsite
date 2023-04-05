@@ -1,0 +1,26 @@
+.goTop {
+    color: white;
+    border: 1px solid #E64032;
+    background-color: #E64032;
+    animation: gotop .8s linear infinite alternate-reverse;
+    position: fixed;
+    bottom: 15%;
+    right: 10%;
+}
+
+.goTop:hover {
+    color: white;
+    background-color: #e64132ac;
+    border-color: #e64132ac;
+    cursor: pointer;
+}
+
+@keyframes gotop {
+    0% {
+        transform: translateY(-3px);
+    }
+    100% {
+        transform: translateY(1px);
+    }
+}
+

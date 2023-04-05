@@ -1,12 +1,12 @@
 import React from 'react';
 import home from './home.css';
-import heroImg from '../../Images/hero-img.png';
 import { Link, NavLink } from 'react-router-dom';
 import TeamSection from '../../components/TeamSection/TeamSection';
 import ClientsSection from '../../components/Clients/ClientsSection';
 import BlogSection from '../../components/BlogSection/BlogSection';
 import CredentialSection from '../../components/CredentialSection/CredentialSection';
 import GallerySection from '../../components/GallerySection/GallerySection';
+import HeroSlider from '../../components/HeroSlider/HeroSlider';
 
 const Home = () => {
     return (
@@ -15,7 +15,7 @@ const Home = () => {
             {/* hero section  */}
 
             <div id="hero-img">
-                <img src={heroImg} alt="Artistic Communication" />
+                <HeroSlider></HeroSlider>
             </div>
 
             {/* hero nav  */}
@@ -199,10 +199,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className='contact-address-btn'>
-                            <Link to='/contact' className='address-btn'>JOIN THE MADNESS</Link>
                             <Link to='/contact' className='address-btn'>REACH OUT</Link>
-                            {/* <Link to='/contact'><button className='address-btn'>JOIN THE MADNESS</button></Link> */}
-                            {/* <Link to='/contact'><button className='address-btn'>REACH OUT</button></Link> */}
                         </div>
                     </div>
                     <div className="col-md-3 contact-map">

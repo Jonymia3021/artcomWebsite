@@ -1,0 +1,29 @@
+#sideIcons {
+    position: fixed;
+    background-color: #91bbfa84;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+#sideIcons a {
+    text-decoration: none;
+    font-size: 18px;
+    animation: gotop 1.8s linear infinite alternate-reverse;
+}
+
+#sideIcons a .bi-facebook {
+    color: #5871A7;
+}
+
+#sideIcons a .bi-linkedin {
+    color: #358DB6;
+}
+
+#sideIcons a .bi-youtube {
+    color: #FF2B2B;
+}

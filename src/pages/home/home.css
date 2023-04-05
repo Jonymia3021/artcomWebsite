@@ -289,11 +289,16 @@
     margin: 10px;
 }
 
+.contact-section .contact-link a:hover {
+    color: #FFF200 ;
+}
+
 .contact-section .contact-address {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding: 20px 0;
 }
 
 .contact-address-info {
@@ -306,6 +311,10 @@
 .contact-address-info  h3 {
     font-size: 22px;
     font-family: 'Montserrat';
+}
+
+.contact-address-info  p {
+    margin-top: 16px;
 }
 
 .contact-address-info div a {
@@ -339,6 +348,8 @@
 
 .contact-map {
     padding: 0;
+    height: auto;
+    overflow: hidden;
 }
 
 .contact-map iframe {
